@@ -1,0 +1,39 @@
+{
+  "name": "tcc",
+  "version": "1.0.0",
+  "description": "site de cadastramento de individuos com amputaçao dos membros superiores",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next --port 3002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tese"
+  },
+  "keywords": [
+    "computacao"
+  ],
+  "author": "Igor Moreira Francisco",
+  "license": "MIT",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.16.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/ui": "^0.6.2",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.0.0",
+    "firebase-admin": "^9.2.0",
+    "geofirestore": "^4.3.0",
+    "isomorphic-fetch": "^3.0.0",
+    "next": "^9.5.2",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.8.10"
+  }
+}

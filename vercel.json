@@ -1,0 +1,14 @@
+{
+    "build": {
+        "env": {
+            "AUTH0_CLIENT_ID":"ICyN82T0QIVrWt1NyqMg5X35jrchbTat",
+            "AUTH0_CLIENT_SECRET":"YZvMGQNDXM-Cum8c_jk62IPuw0EKN4zWL4NCsv5dMPhBo0E2u_xwS8skhaFq-hSU",
+            "AUTH0_SCOPE":"openid profile",
+            "AUTH0_DOMAIN":"igormoreiraufu.us.auth0.com",
+            "AUTH0_REDIRECT_URI":"http://localhost:3000/api/callback",
+            "AUTH0_LOGOUT_REDIRECT_URI":"http://localhost:3000",
+            "AUTH0_SESSION_SECRET":"DHJFUDSFHEFKMCVVNJKDHJFIOUEDJKFL",
+            "AUTH0_SESSION_COOKIE_TIME":"3600"
+        }
+    }
+}
